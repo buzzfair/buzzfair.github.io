@@ -1,0 +1,35 @@
+in sublime text
+
+green text=attribute
+pinkish-red text=element
+
+external css
+1. create a new file called styles.css or stylesheet.css
+2. link it to HTML document/tags by using the <link> element
+
+
+Benefits of external: can be applied to multiple pages 
+Disadvantage: can increase loading times, or css doc doesn't load at all so your site looks like shit
+
+<div> tag (element) defines a division or section in html doc; used to "contain" elements of code, i.e., it's a container)
+NOTE: div must be placed on its OWN line and must have a closing tag, also divs do not have any height attributes
+
+
+<a> (or anchor) element tag represents a hyperlink / by default unvisited links are blue, visited are purple and active are red
+tag needs attr called href=""
+possible values of the attr:
+Absolute URL
+Relative URL - file w/in site
+element w/ specified id w/in page (#top)
+script (javascript, etc.)
+other protocols
+
+
+group tags w/i divs
+add ids to all your div tags (id is unique, uses # in css doc)
+add BG color to divs
+add diff font size to <h1>
+add border to one of the tags
+add some other unique style aspect
+css props:background-color:, font-size:, color:, border-style: solid;
+NOTE: id overrides class, class (class is not unique, uses . in css doc)

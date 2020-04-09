@@ -1,0 +1,14 @@
+html
+
+element is a piece of code with an opening (but not necessarily a closing) tag that tell the browser what to display
+
+attribute defines more about the element (height, width, color, fontface)
+
+make a list:
+Ordered <ol>
+<li>
+Unordered <ul>
+with nested items between ol/ul tags as well as <li></li> tags
+
+What is a dependency? using someone else's code, image, etc. (using an image sourced from another website)
+Dependencies have pros and cons
