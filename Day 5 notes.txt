@@ -1,0 +1,6 @@
+selectors are styles in css code / documents
+
+difference btwn id and class = UNIQUENESS
+id - should be assigned to only one element
+class - can be assigned to multiple
+

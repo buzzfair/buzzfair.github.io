@@ -1,0 +1,61 @@
+<!DOCTYPE css>
+
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+
+ .center {
+ 	text-align: center;
+ }	
+
+ h1 {color:#681845; font-size: 24;}
+ h3 {color:#900C3F; font-family: arial; }
+ h4 {color:#C70039;}
+ h5 {color:#E32A02;}
+ h6 {color:#FFC300;}
+ p {
+ 	font-size: 13px;
+ 
+ }
+ body {
+ 	font-family: arial;
+ 	max-width: 500px;
+  	margin: auto;
+ }
+
+ img {
+ 	border: 3px inset #efefef;
+ }
+
+ #heading {
+ 	color: purple; 
+ 	font-size: 36 ;
+ 	font-family: helvetica;
+ }
+ .orange-text {
+ 	color:#E13F1C;
+ 	font-size: 12px;
+ }
+
+#html {
+
+}
+
+ #about {
+ 	background-color: pink;
+ }
+
+ .container-images {
+ 	border: double 5px lightpink;
+ 	margin: 0;
+
+ 
+ }
+
+ #lists {
+ 	background-color: lightblue;
+ 	border: 5px dotted blue;
+ }
+
+
