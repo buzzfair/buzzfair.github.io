@@ -40,7 +40,7 @@ body {
  	color: lavender;  
  	max-width: 500px;
   	margin: auto;
-  	background-image: url(IMAGES/bg625x385.png) ;  
+  	background-image: url(/IMAGES/bg625x385.png) ;  
   }
 
  img {
