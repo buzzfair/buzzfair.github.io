@@ -34,13 +34,14 @@
  	color:#FFC300;
  }
 body {
+      background-image: url(http://static.simpledesktops.com/uploads/desktops/2018/08/04/six.png.625x385_q100.png) ;  
  	font-size: 18px;
  	font-family: century gothic;
  	font-weight: bold;
  	color: lavender;  
  	max-width: 500px;
-  margin: auto;
-  background-image: url(http://static.simpledesktops.com/uploads/desktops/2018/08/04/six.png.625x385_q100.png) ;  
+    margin: auto;
+
   }
 
  img {
