@@ -1,0 +1,29 @@
+<!DOCTYPE css>
+ h1 {color:#681845; font-size: 24;}
+ h3 {color:#900C3F; font-family: arial }
+ h4 {color:#C70039;}
+ h5 {color:#E32A02;}
+ h6 {color:#FFC300;}
+
+ #heading {
+ 	color: purple; 
+ 	font-size: 36 ;
+ }
+ .orange-text {color:#E13F1C;}
+
+ #about {
+ 	background-color: pink; 
+ }
+
+ .container-images {
+ 	border: double 5px lightpink;
+ 
+ }
+
+ #lists {
+ 	background-color: lightblue;
+ 	border: 5px dotted blue;
+ }
+ img {
+ 	border: 3px inset #efefef;
+ }
