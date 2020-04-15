@@ -1,0 +1,4 @@
+Google fonts
+1. pick your font, styles, etc.
+2. grab the html code and add it to html in header ABOVE stylesheet link tag
+3. grab css code and add it the stylesheet where you want the font to be applied
