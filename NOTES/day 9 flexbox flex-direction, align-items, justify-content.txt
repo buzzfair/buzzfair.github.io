@@ -1,0 +1,18 @@
+Flexbox (aka display:flex)
+
+MAIN axis refers to main starting point of content and the direction it flows
+flex-direction: row (main axis top left to top right ====>)
+flex-direction: row-reverse (main axis top right to top left <====)
+flex-direction: column (main axis top left to bottom left)
+flex-direction: column-reverse (main axis bottom left to top left)
+
+REFERS TO POSITION IN RELATION TO MAIN AXIS:
+justify-content: 
+// justify-items:
+
+REFERS TO POSITION IN RELATION TO CROSS AXIS: 
+align-items: flex-start, center, flex-end, etc.
+align-content: (only affects content when/if it falls on more than one line)
+
+
+
