@@ -1,0 +1,344 @@
+<!DOCTYPE css>
+
+#content {
+  max-width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+
+h1 {
+	color:#f0c75e; 
+	font-size: 48px;
+	font-family: "Oswald"; 
+	text-shadow: 2px 2px 4px #445c64;
+ }
+
+h3 {
+	color: #FFC300; 
+	font-size: 35px;
+	font-family: "Oswald"; 
+ }
+
+h4 {
+	color:	#e1574c;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 2px white;
+
+ }
+
+h5 {
+	color:	white;
+	font-family: 'helvetica', sans-serif;
+	text-align: center;
+
+ }
+
+h6 {
+	color:#FFC300;
+	text-align: center;
+	text-shadow: 2px 2px 2px black;
+ }
+
+body {
+/*	max-width: 600px;
+/*	margin: auto; */
+	font-size: 20px;
+	color: lavender;  
+	font-style: bold;
+	background-image: url(IMAGES/bg625x385.png)  ;
+	background-attachment: fixed;
+	padding-bottom: 200px;
+
+  }
+
+#navigation {
+	position: relative;
+/*	justify-content: center;*/
+	margin-left: 0px;
+	z-index: 9999;
+	scroll-behavior: smooth;
+	text-decoration-color: #27a6d1;
+}
+
+/*----Container everything at the top of the page----*/
+.flex-container {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 44px;
+	flex-wrap: wrap;
+
+}
+
+/*----Container for 3 visual elements at top----*/
+#top-container {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(255,0,0,0.2);
+	max-height: 350px;
+	border-color: rgba(255,0,0,0.2);
+	border-radius: 50px;
+	padding: 25px;
+}
+
+/* #about {
+	background-color: rgba(255,0,0,0.2);
+	background-color: #3db39d;
+	border: 1px;
+	border-color: #3db39d;
+	border-radius: 8px;
+	width: 300px;
+	height: 250px;
+ }*/
+
+/*----Name aka GUIN----*/
+ #heading {
+	color: #f0c75e; 
+	font-size: 62px;
+	font-family: 'Oswald', sans-serif;
+	margin: 25px;
+	padding: 8px;
+	border: 5px inset;
+	border-radius: 25px;
+	border-color: #27a6d1;
+	max-width: 200px;
+	max-height: 200px ;	
+ }
+
+/*----monster image at top----*/
+.head-img {
+	border: 5px inset;
+	border-radius: 50px;
+	max-width: 300px;
+	max-height: 300px ;
+	align-self: center;
+	filter: invert(75%) sepia(50%) saturate(10000%) hue-rotate(25deg);*/
+
+}
+
+/*----3-word description subheading at top----*/
+#heading3 {
+	margin: 25px;
+	padding: 8px;
+	border: 5px inset;
+	border-radius: 25px;
+	border-color: #27a6d1;
+	max-width: 200px;
+	max-height: 200px ;	
+	align-content: center;
+
+}
+
+/* .container-images {
+	border: double 5px #3db39d;
+	border-radius: 8px;
+	margin: 5px;
+	padding: 12px;
+
+ 
+ }*/
+
+img {
+	display: block;
+	border-radius: 8px;
+	max-width: 400px;
+	max-width: 400px;
+	width: auto;
+	height: auto;
+
+/* 	align-self: center;*/
+ }
+
+/*----Container for 2-sentence description about me----*/
+#brief {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-family: 'Oswald', sans-serif;
+/*	width: 700px;*/
+	padding: 25px;
+	border: ridge;
+	border-radius: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	max-width: 600px;
+	margin: auto;
+	margin-bottom: 60px;
+	background-color: rgba(255,0,0,0.2);
+}
+
+/*----Container for button links----*/
+#links {
+	padding: 25px;
+	border: ridge;
+	border-radius: 25px;
+	border-color: rgba(255,0,0,0.2);
+	background: linear-gradient(90deg, rgba(225,87,76,1) 0%, rgba(240,199,94,1) 50%, rgba(219,156,227,1) 100%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	max-width: 600px;
+	margin: auto;
+	margin-bottom: 60px;
+/*	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Oswald', sans-serif;
+	width: 700px;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	background-color: black;
+*/
+}
+
+
+a:link, a:visited {
+  	background-color: #e1574c;
+ 	border-color: #e1574c;
+	border-radius: 10px; 	
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	scroll-behavior: smooth;
+
+}
+
+a:hover, a:active {
+	background-color: #27a6d1;
+	border-color: red;
+	border-radius: 10px;
+	scroll-behavior: smooth;
+	text-decoration-color: #27a6d1;  
+
+}
+
+/*----Container for lists----*/
+#lists {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	background: #f0c75e;
+	border: 5px dotted #3db39d;
+	border-radius: 25px;
+/*	position: relative;*/
+	margin-bottom: 60px;
+	padding-top: 25px;
+/* 	width: 750px;
+	max-width: relative;
+	max-height: auto; */
+
+ }
+
+/*----list text styling NOT INCLUDING LIST TITLES----*/
+.list-text {
+	text-align: left;
+	color:	rgb(70, 90, 101);
+	font-family: 'Century-gothic', sans-serif;
+	font-size: 14px;
+	font-style: bold;
+
+ }
+
+.container-lists {
+
+}
+
+.list-width {
+
+}
+
+/*----Container for Image Carousel----*/
+ .top-margin {
+	margin-top: 50px;
+	padding-top: 25px;
+	height: 500px;
+	width: 600px;
+	border-radius: 25px;
+	align-items: center;
+
+ }
+
+/*.position {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+
+ }*/
+
+.carousel-size {
+	height: 550px;
+	width: 600px;
+	background-color: rgba(255,0,0,0.2);
+	border-color: #63646a;
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 25px;
+	padding-top: 75px;
+
+}
+
+.carousel-images {
+	height: 450px;
+	max-width: 375px;
+	max-height: 350px ;
+
+ }
+
+.carousel-caption { 
+	position: absolute;
+	top: -20px;
+	margin-top: 0px;
+
+}
+
+
+.tiny-text {
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	background-color: grey;
+
+}
+
+.center {
+	text-align: center;
+	position: relative;
+	margin: auto;	
+	top: 25px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	justify-content: center;
+
+}
+
+.body-text {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 50px;
+	text-shadow: 2px 2px 2px black;
+}
+
+.grid-styles {
+	background-color: rgba(61,179,157,0.3);
+
+}
